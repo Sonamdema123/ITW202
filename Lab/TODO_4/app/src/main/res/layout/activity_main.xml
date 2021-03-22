@@ -6,6 +6,33 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/text_header_reply"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:background="#08F00F"
+        android:gravity="center"
+        android:text="@string/text_header_reply"
+        android:textAlignment="center"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_message_reply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginLeft="176dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_header_reply" />
     <Button
         android:id="@+id/button"
         android:layout_width="109dp"
@@ -35,31 +62,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.917" />
-    <TextView
-        android:id="@+id/text_header_reply"
-        android:layout_width="380dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="32dp"
-        android:background="#08F00F"
-        android:gravity="center"
-        android:text="@string/text_header_reply"
-        android:textAlignment="center"
-        android:textStyle="bold|italic"
-        android:visibility="invisible"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/text_message_reply"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="176dp"
-        android:layout_marginLeft="176dp"
-        android:layout_marginTop="20dp"
-        android:text="TextView"
-        android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_header_reply" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -29,7 +29,20 @@ public class MainActivity extends AppCompatActivity {
     Intent obj = new Intent(this, MainActivity2.class);
             String message = mMessageEditText.getText().toString();
             obj.putExtra(EXTRA_MESSAGE, message);
+            //startActivity(obj);
             startActivityForResult(obj, TEXT_REQUEST);
 
+    }
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data){
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == TEXT_REQUEST){
+            if (resultCode == RESULT_OK){
+                String reply = data.getStringExtra(MainActivity2.EXTRA_REPLY);
+                mReplyHeadTextView.setVisibility(View.VISIBLE);
+                mReplyTextView.setText(reply);
+                mReplyTextView.setVisibility(View.VISIBLE);
+            }
+        }
     }
 }
