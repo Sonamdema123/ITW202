@@ -108,12 +108,13 @@
         android:layout_height="65dp"
         android:layout_marginBottom="52dp"
         android:clickable="true"
-        android:onClick="onClick"
+        android:onClick="Phone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.907"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@android:drawable/sym_action_call" />
+        app:srcCompat="@drawable/ic_baseline_shopping"
+        tools:ignore="VectorDrawableCompat" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
