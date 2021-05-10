@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TODO_15</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tab_label1">These are the stories:</string>
+    <string name="tab_label2">Tech news you can use:</string>
+    <string name="tab_label3">Cooking tips:</string>
+
+</resources>
