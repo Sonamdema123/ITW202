@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.example.todo_17"
+        applicationId "com.example.todo_21"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1
@@ -36,5 +36,4 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-    androidTestImplementation 'androidx.test:rules:1.4.0-alpha05'
 }
