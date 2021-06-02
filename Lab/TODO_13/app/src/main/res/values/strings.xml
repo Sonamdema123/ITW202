@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Todo_13</string>
+    <string name="donutext">Donuts are glazed and\n sprinkled with candy</string>
+    <string name="icetext">Ice cream sandwitches have\n chocolate wafers and\n vanilla filling</string>
+    <string name="froyotext">Froyo is premium self</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="note">Note</string>
+    <string name="same_day_messenger_service">Same Day messenger service</string>
+    <string name="next_day_group_delivery">Next day group delivery</string>
+    <string name="pick_up">pick up</string>
+    <string name="donut_Text">You have ordered a Donut</string>
+    <string name="ice_Text">You have ordered an Ice Cream Sandwitch</string>
+    <string name="froyo_Text">You have ordered a Froyo</string>
+    <string-array name="spinner_label">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Other</item>
+    </string-array>
+</resources>
